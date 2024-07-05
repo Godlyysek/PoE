@@ -48,36 +48,36 @@ func movement():
 
 # PLAYER STATS
 
-var physical_damage = 10 * self.level
-var inc_physical_damage = 1
-var more_physical_damage = 1
+var base_physical_damage = 10 * self.level
+var base_inc_physical_damage = 1
+var base_more_physical_damage = 1
 
-var magic_damage = 1
-var inc_magic_damage = 1
-var more_magic_damage = 1
+var base_magic_damage = 1
+var base_inc_magic_damage = 1
+var base_more_magic_damage = 1
 
-var true_damage = 1
-var inc_true_damage = 1
-var more_true_damage = 1
+var base_true_damage = 1
+var base_inc_true_damage = 1
+var base_more_true_damage = 1
 
-var attack_speed = 1
-var inc_attack_speed = 1
-var more_attack_speed = 1
+var base_attack_speed = 1
+var base_inc_attack_speed = 1
+var base_more_attack_speed = 1
 
-var cast_speed = 1
-var inc_cast_speed = 1
-var more_cast_speed = 1
+var base_cast_speed = 1
+var base_inc_cast_speed = 1
+var base_more_cast_speed = 1
 
-var inc_damage_over_time = 1
-var damage_over_time_multiplier = 1
+var base_inc_damage_over_time = 1
+var base_damage_over_time_multiplier = 1
 
-var move_speed_multiplier = 1
+var base_move_speed_multiplier = 1
 
 # PROJECTILE STATS
 
-var projectile_speed_multiplier = 1
-var projectile_number = 1
-var projectile_damage_multiplier = 1
-var projectile_pierce = 0
+var base_projectile_speed_multiplier = 1
+var base_projectile_number = 1
+var base_projectile_damage_multiplier = 1
+var base_projectile_pierce = 0
 
 
